@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+#logo
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(30, 20, 10);
+    text-decoration: none;
+}
+.bar
+{
+    position: fixed;
+    background-color: black;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.26);
+    width: 100%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.navlink
+{
+    text-decoration: none;
+    color:  rgba(240, 81, 54);
+    cursor: pointer;
+    margin-right: 30px;
+}
+.navlink:hover
+{
+    color: white;
+}
+.bar ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;
+}
+
+.button
+{
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 30px;
+    border-radius: 5%;
+    text-align: center;
+    color:  rgba(240, 81, 54);
+    padding: 10px;
+    display: block;
+    background-color: white;
+}
+.button:hover{
+    color: black;
+}
+
+#home p{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+#home
+{
+    background-color: white;
+    color: black;
+    padding-top: 200px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 350px;    
+}
